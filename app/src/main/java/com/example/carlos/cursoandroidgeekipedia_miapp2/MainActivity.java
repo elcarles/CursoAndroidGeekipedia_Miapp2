@@ -30,9 +30,25 @@ public class MainActivity extends AppCompatActivity {
 
 public void estatus(View view){
 
-    String mates = et1_m.getText().toString();
-    String fisica = et1_f.getText().toString();
-    String quimica = et1_q.getText().toString();
+    String mates_s = et1_m.getText().toString();
+    String fisica_s = et1_f.getText().toString();
+    String quimica_s = et1_q.getText().toString();
+
+    int mates_int = Integer.parseInt(mates_s);
+    int fisica_int = Integer.parseInt(fisica_s);
+    int quimica_int = Integer.parseInt(quimica_s);
+
+    int promedio = (mates_int + fisica_int + quimica_int) / 3;
+
+    // hacemos las comprobaciones
+
+    if (promedio > 5){
+        tv_e.setText("Estatus aprobado con " + promedio);
+    }
+    else tv_e.setText("Estatus suspenso con " + promedio);
+
+
+
 
 
 
