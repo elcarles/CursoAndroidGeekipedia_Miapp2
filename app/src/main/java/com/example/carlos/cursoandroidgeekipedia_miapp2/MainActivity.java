@@ -47,6 +47,8 @@ public void estatus(View view){
     }
     else tv_e.setText("Estatus suspenso con " + promedio);
 
+    //prueba
+
 
 
 
