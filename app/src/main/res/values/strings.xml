@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">CursoAndroidGeekipedia_Miapp2</string>
+    <string name="app_name">MiApp2</string>
+    <string name="et1_mates">Matemáticas</string>
+    <string name="et2_fisica">Fisica</string>
+    <string name="et3_quimica">Quimica</string>
+    <string name="tv_estatus">Estatus del Alumno</string>
+    <string name="boton">Evaluar</string>
+
 </resources>
